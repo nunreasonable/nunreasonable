@@ -27,7 +27,7 @@ Won't really say much except:
 ### Toolbox
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,cs,dotnet,lua,luau,react,nextjs,tailwind,html,css,figma,git,vercel" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=js,ts,cs,dotnet,lua,react,nextjs,tailwind,html,css,figma,git,vercel" alt="tech stack" />
 </p>
 
 ### Projects
