@@ -36,9 +36,8 @@ somewhere between design and code, and most of it happens out in the open.
 
 | Project | What it is |
 | --- | --- |
-| **[Project name](#)** | One line about what it does. |
-| **[Project name](#)** | One line about what it does. |
-| **[Project name](#)** | One line about what it does. |
+| **[ccore — chavinhoCORE](https://github.com/nunreasonable/cornwall-discord-application)** | Discord bot in C# / .NET for the 12° Regt. de Infantaria. Regimental admin, ROBLOX-verified enlistment, slash commands.<br/><sub>[site](https://daeese.me/cornwallcore/) · [terms](https://daeese.me/cornwallcore/termsofservice/) · [privacy](https://daeese.me/cornwallcore/privacypolicy/)</sub> |
+| **[Vltra Entertainment](https://discord.com/invite/3qdvhkNSS8)** | The Roblox group I develop for — systems, gameplay and tooling in Luau. |
 
 > More at **[daeese.me](https://daeese.me)**
 
