@@ -29,7 +29,7 @@ somewhere between design and code, and most of it happens out in the open.
 ### Toolbox
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,tailwind,html,css,figma,git,vercel" alt="tech stack" />
+  <img src="https://skillicons.dev/icons?i=js,ts,cs,dotnet,lua,react,nextjs,tailwind,html,css,figma,git,vercel" alt="tech stack" />
 </p>
 
 ### Projects
@@ -60,7 +60,7 @@ somewhere between design and code, and most of it happens out in the open.
 
 <p>
   <img src="https://github-readme-stats.vercel.app/api?username=nunreasonable&show_icons=true&hide_border=true&theme=transparent&hide_title=true" alt="github stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nunreasonable&layout=compact&hide_border=true&theme=transparent&hide_title=true" alt="top languages" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nunreasonable&layout=compact&hide_border=true&theme=transparent&hide_title=true&langs_count=8" alt="top languages" height="150" />
 </p>
 
 <p align="center"><sub>online now — @daeese · @nunreasonable</sub></p>
