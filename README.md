@@ -45,7 +45,15 @@ somewhere between design and code, and most of it happens out in the open.
 
 <p>
   <a href="https://daeese.me"><img src="https://img.shields.io/badge/website-daeese.me-000000?style=for-the-badge&logo=safari&logoColor=white" alt="website" /></a>
-  <a href="https://open.spotify.com"><img src="https://img.shields.io/badge/spotify-listen%20along-1DB954?style=for-the-badge&logo=spotify&logoColor=white" alt="spotify" /></a>
+  <a href="https://discord.com/users/1402344358199689348"><img src="https://img.shields.io/badge/discord-@daeese-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord" /></a>
+</p>
+
+### Now playing
+
+<p>
+  <a href="https://discord.com/users/1402344358199689348">
+    <img src="https://lanyard.cnrad.dev/api/1402344358199689348?theme=dark&bg=00000000&hideDiscrim=true&borderRadius=14px&idleMessage=not%20listening%20to%20anything%20right%20now" alt="discord presence via lanyard" />
+  </a>
 </p>
 
 ### Stats
