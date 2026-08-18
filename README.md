@@ -1,7 +1,7 @@
 <h1 align="center">DAEESE</h1>
 
 <p align="center">
-  <em>Designer / developer crafting interfaces that feel alive.</em>
+  <em>Developer yes? :p</em>
 </p>
 
 <p align="center">
@@ -13,14 +13,12 @@
 ---
 
 ```
-building digital things  ·  collecting inspiration  ·  sharing work in public
+daeese; daeeseD; nunreasonable; wtv
 ```
 
 ### About
 
-I design and build interfaces — the kind that respond, breathe, and feel like
-something is on the other side of the screen. Most of what I make lives
-somewhere between design and code, and most of it happens out in the open.
+Won't really say much except:
 
 - Currently working on interface / front-end experiments
 - Collecting inspiration and turning it into shipped things
