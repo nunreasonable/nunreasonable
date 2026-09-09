@@ -34,7 +34,9 @@ Won't really say much except:
 
 | Project | What it is |
 | --- | --- |
-| **[ccore — chavinhoCORE](https://github.com/nunreasonable/cornwall-discord-application)** | Discord bot in C# / .NET for the 12° Regt. de Infantaria. Regimental admin, ROBLOX-verified enlistment, slash commands.<br/><sub>[site](https://daeese.me/cornwallcore/) · [terms](https://daeese.me/cornwallcore/termsofservice/) · [privacy](https://daeese.me/cornwallcore/privacypolicy/)</sub> |
+| **[Sollarety](https://ccore.daeese.me/fun/)** | Moderation and fun Discord bot in C# for community servers. Who may run each command is decided by your server's own Discord roles, and it never requests the Message Content intent — message text is never received or stored.<br/><sub>[add to a server](https://ccore.daeese.me/fun/invite/)</sub> |
+| **[ccore — chavinhoCORE](https://github.com/nunreasonable/cornwall-discord-application)** | The project Sollarety grew out of. Discord bot in C# / .NET for the 12° Regt. de Infantaria: regimental admin, ROBLOX-verified enlistment, slash commands. Paused right now, not retired.<br/><sub>[site](https://ccore.daeese.me/) · [terms](https://ccore.daeese.me/termsofservice/) · [privacy](https://ccore.daeese.me/privacypolicy/)</sub> |
+| **[mocktail-overlay](https://github.com/nunreasonable/mocktail-gentoo-overlay/tree/gentoo-overlay)** | Unofficial Gentoo overlay with ebuilds for [Mocktail](https://github.com/komaruworld/mocktail), the compatibility runtime that runs the Android x86-64 Roblox client on Linux. Ships `app-emulation/mocktail`, `mocktail-9999` and `mocktail-bin`.<br/><sub>ebuilds only — I maintain the packaging, not the software</sub> |
 | **[Vltra Entertainment](https://discord.com/invite/3qdvhkNSS8)** | The Roblox group I develop for — systems, gameplay and tooling in Luau. |
 
 > More at **[daeese.me](https://daeese.me)**
