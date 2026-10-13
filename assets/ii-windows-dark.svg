@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" role="img" aria-label="ii on Windows: end-4's illogical-impulse on Windows 10 and 11">
+<title>ii on Windows</title>
+<style>
+.ti{font:700 34px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f2ede4}
+.sub{font:400 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#a7a0a6}
+.chip{font:600 11px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f2ede4}
+.chipb{fill:#ff2d62;fill-opacity:.12;stroke:#ff2d62;stroke-opacity:.35}
+.tt{font:600 10px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#f6dbe6}
+.bt{font:600 9px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f6dbe6}
+.st{font:500 14px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f6dbe6}
+.au{transform-box:fill-box;transform-origin:center;animation:au 10s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.9)}100%{opacity:1;transform:translateX(20px) scale(1.1)}}
+.bar{animation:bar 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes bar{0%{transform:translateY(-34px)}7%{transform:translateY(0)}93%{transform:translateY(0)}100%{transform:translateY(-34px)}}
+.sp{opacity:0;transform-box:fill-box;transform-origin:center;animation:sp 8s ease infinite}
+@keyframes sp{0%,8%{opacity:0;transform:scale(.94)}11%{opacity:1;transform:scale(1)}29%{opacity:1;transform:scale(1)}33%,100%{opacity:0;transform:scale(.97)}}
+.ty{transform-box:fill-box;transform-origin:0 0;animation:ty 8s steps(8,end) infinite}
+@keyframes ty{0%,12%{transform:scaleX(0)}22%,100%{transform:scaleX(1)}}
+.res{opacity:0;animation:res 8s steps(1) infinite}
+@keyframes res{0%,23%{opacity:0}24%,100%{opacity:1}}
+.wa{animation:wa 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes wa{0%,32%{opacity:0;transform:translateY(14px)}37%{opacity:1;transform:translateY(0)}88%{opacity:1;transform:translateY(0)}95%,100%{opacity:0;transform:translateY(0)}}
+.wab{transform-box:fill-box;transform-origin:0 0;animation:wab 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes wab{0%,44%{transform:scaleX(2.0388)}51%,100%{transform:scaleX(1)}}
+.wb{animation:wb 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes wb{0%,44%{opacity:0;transform:translateX(90px)}51%{opacity:1;transform:translateX(0)}88%{opacity:1;transform:translateX(0)}95%,100%{opacity:0;transform:translateX(0)}}
+.wbb{transform-box:fill-box;transform-origin:0 0;animation:wbb 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes wbb{0%,58%{transform:scaleY(2.1096)}65%,100%{transform:scaleY(1)}}
+.wc{animation:wc 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes wc{0%,58%{opacity:0;transform:translateY(60px)}65%{opacity:1;transform:translateY(0)}88%{opacity:1;transform:translateY(0)}95%,100%{opacity:0;transform:translateY(0)}}
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="ibg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#060305"/><stop offset="1" stop-color="#12060c"/></linearGradient>
+<pattern id="idots" width="14" height="14" patternUnits="userSpaceOnUse">
+<circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".07"/></pattern>
+<radialGradient id="iglowA"><stop offset="0" stop-color="#ff2d62" stop-opacity=".55"/><stop offset="1" stop-color="#ff2d62" stop-opacity="0"/></radialGradient>
+<radialGradient id="iglowB"><stop offset="0" stop-color="#7a0a35" stop-opacity=".55"/><stop offset="1" stop-color="#7a0a35" stop-opacity="0"/></radialGradient>
+<clipPath id="icard"><rect width="860" height="240" rx="18"/></clipPath>
+<linearGradient id="wp" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c0714"/><stop offset=".6" stop-color="#4a0f2e"/><stop offset="1" stop-color="#e4509a"/></linearGradient>
+<radialGradient id="wpg"><stop offset="0" stop-color="#e4509a" stop-opacity=".55"/><stop offset="1" stop-color="#e4509a" stop-opacity="0"/></radialGradient>
+<clipPath id="desk"><rect x="400" y="22" width="436" height="196" rx="12"/></clipPath>
+<clipPath id="tyc"><rect class="ty" x="536.0" y="92" width="68.8" height="22"/></clipPath>
+</defs>
+<g clip-path="url(#icard)">
+<rect width="860" height="240" rx="18" fill="url(#ibg)"/>
+<rect width="860" height="240" fill="url(#idots)"/>
+<ellipse class="au" cx="180" cy="40" rx="300" ry="150" fill="url(#iglowA)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="239" rx="17.5" fill="none" stroke="rgba(255,45,98,.22)"/>
+<text class="ti" x="40" y="76">ii on Windows</text>
+<text class="sub" x="40" y="108">end-4's illogical-impulse, running</text>
+<text class="sub" x="40" y="130">natively on Windows 10 and 11</text>
+<rect class="chipb" x="40" y="168" width="86" height="26" rx="13"/><text class="chip" x="83" y="185" text-anchor="middle">Quickshell</text><rect class="chipb" x="134.0" y="168" width="112" height="26" rx="13"/><text class="chip" x="190" y="185" text-anchor="middle">dwindle tiling</text><rect class="chipb" x="254.39999999999998" y="168" width="99" height="26" rx="13"/><text class="chip" x="304" y="185" text-anchor="middle">Material You</text>
+<g clip-path="url(#desk)">
+<rect x="400" y="22" width="436" height="196" fill="url(#wp)"/>
+<circle cx="776" cy="188" r="120" fill="url(#wpg)"/>
+<g class="bar"><rect x="406" y="28" width="424" height="20" rx="10" fill="rgba(20,8,14,.78)"/>
+<circle cx="418" cy="38" r="5" fill="#ff8cbc"/>
+<g fill="rgba(246,219,230,.35)"><rect x="430" y="35" width="10" height="6" rx="3" fill="#ff8cbc"/><circle cx="448" cy="38" r="3"/><circle cx="458" cy="38" r="3"/><circle cx="468" cy="38" r="3"/></g>
+<text class="bt" x="618.0" y="41.5" text-anchor="middle">12:00</text>
+<g fill="rgba(246,219,230,.35)"><rect x="766" y="35" width="22" height="6" rx="3"/><circle cx="798" cy="38" r="3"/><circle cx="808" cy="38" r="3"/><circle cx="818" cy="38" r="3"/></g></g>
+<g class="wa"><rect class="wab" x="408.0" y="56.0" width="206.0" height="154.0" rx="7" fill="#1b1116" stroke="rgba(255,255,255,.12)" vector-effect="non-scaling-stroke"/>
+<circle cx="418.0" cy="65.0" r="2.4" fill="#ff8cbc"/><circle cx="426.0" cy="65.0" r="2.4" fill="rgba(246,219,230,.35)"/><circle cx="434.0" cy="65.0" r="2.4" fill="rgba(246,219,230,.35)"/><text x="418.0" y="88.0" class="tt"><tspan fill="#ff8cbc">&gt;</tspan> ii --windows</text><rect x="418.0" y="100.0" width="120" height="5" rx="2.5" fill="rgba(246,219,230,.35)"/><rect x="418.0" y="112.0" width="84" height="5" rx="2.5" fill="rgba(246,219,230,.35)"/><rect x="418.0" y="124.0" width="140" height="5" rx="2.5" fill="rgba(246,219,230,.35)"/><rect x="418.0" y="136.0" width="64" height="5" rx="2.5" fill="rgba(246,219,230,.35)"/><text x="418.0" y="160.0" class="tt"><tspan fill="#ff8cbc">&gt;</tspan></text><rect class="cur" x="430.0" y="151.0" width="7" height="12" fill="#f6dbe6"/></g>
+<g class="wb"><rect class="wbb" x="622.0" y="56.0" width="206.0" height="73.0" rx="7" fill="#1b1116" stroke="rgba(255,255,255,.12)" vector-effect="non-scaling-stroke"/><circle cx="632.0" cy="65.0" r="2.4" fill="#ff8cbc"/><circle cx="640.0" cy="65.0" r="2.4" fill="rgba(246,219,230,.35)"/><circle cx="648.0" cy="65.0" r="2.4" fill="rgba(246,219,230,.35)"/><rect x="632.0" y="78.0" width="90" height="6" rx="3" fill="#ff8cbc" fill-opacity=".8"/><rect x="632.0" y="92.0" width="150" height="5" rx="2.5" fill="rgba(246,219,230,.35)"/><rect x="632.0" y="103.0" width="120" height="5" rx="2.5" fill="rgba(246,219,230,.35)"/></g>
+<g class="wc"><rect class="" x="622.0" y="137.0" width="206.0" height="73.0" rx="7" fill="#1b1116" stroke="rgba(255,255,255,.12)" vector-effect="non-scaling-stroke"/><circle cx="632.0" cy="146.0" r="2.4" fill="#ff8cbc"/><circle cx="640.0" cy="146.0" r="2.4" fill="rgba(246,219,230,.35)"/><circle cx="648.0" cy="146.0" r="2.4" fill="rgba(246,219,230,.35)"/><circle cx="650.0" cy="175.0" r="14" fill="#ff8cbc" fill-opacity=".35"/><rect x="674.0" y="167.0" width="100" height="6" rx="3" fill="#f6dbe6" fill-opacity=".7"/><rect x="674.0" y="179.0" width="70" height="5" rx="2.5" fill="rgba(246,219,230,.35)"/></g>
+<g class="sp"><rect x="498.0" y="84" width="240" height="74" rx="14" fill="#1b1116" stroke="rgba(255,255,255,.12)"/>
+<circle cx="518.0" cy="103" r="6" fill="none" stroke="#ff8cbc" stroke-width="2"/><path d="M522.5 107.5l4 4" stroke="#ff8cbc" stroke-width="2" stroke-linecap="round"/>
+<text class="st" x="536.0" y="108" textLength="68.8" lengthAdjust="spacingAndGlyphs" clip-path="url(#tyc)">terminal</text>
+<g class="res"><rect x="506.0" y="122" width="224" height="28" rx="9" fill="#ff8cbc" fill-opacity=".2"/>
+<rect x="514.0" y="128" width="16" height="16" rx="4" fill="#ff8cbc"/><text class="tt" x="538.0" y="140">Windows Terminal</text></g></g>
+</g>
+<rect x="400.5" y="22.5" width="435" height="195" rx="11.5" fill="none" stroke="rgba(255,255,255,.12)"/>
+</svg>
