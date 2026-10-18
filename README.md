@@ -101,6 +101,16 @@ Discord bot in C# / .NET for community servers: moderation with a warning histor
   <sub>live version on <a href="https://daeese.me">daeese.me</a></sub>
 </p>
 
+### Downloads
+
+<p align="center">
+  <img src="assets/downloads.svg" alt="Total release asset downloads across all public repositories" />
+  <br/>
+  <sub>Release file downloads across all my public repositories · refreshed every 6 hours</sub>
+  <br/>
+  <sub>Counts each file download, including pre-releases; excludes source ZIPs and clones. <a href="assets/downloads.json">Breakdown by repository</a> · artwork via <a href="https://github.com/journey-ad/Moe-Counter">Moe Counter</a></sub>
+</p>
+
 ### Stats
 
 <p>
