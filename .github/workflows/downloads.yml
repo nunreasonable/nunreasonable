@@ -22,13 +22,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - run: python -m pip install Pillow==11.3.0
       - name: Sum public release asset downloads
         env:
           GH_TOKEN: ${{ github.token }}
         run: python scripts/update-downloads.py
       - name: Save counter
         run: |
-          git add assets/downloads.svg assets/downloads.json
+          git add assets/downloads.gif assets/downloads.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name nunreasonable
           git config user.email rafaelpasquarella@gmail.com

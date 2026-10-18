@@ -104,7 +104,7 @@ Discord bot in C# / .NET for community servers: moderation with a warning histor
 ### Downloads
 
 <p align="center">
-  <img src="assets/downloads.svg" alt="Total release asset downloads across all public repositories" />
+  <img src="assets/downloads.gif" alt="Total release asset downloads across all public repositories" />
   <br/>
   <sub>Release file downloads across all my public repositories · refreshed every 6 hours</sub>
   <br/>

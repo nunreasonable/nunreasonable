@@ -1,5 +1,3 @@
-import base64
-import struct
 import json
 import os
 from pathlib import Path
@@ -27,6 +25,38 @@ def pages(path):
         page += 1
 
 
+def render_counter(total):
+    from PIL import Image, ImageSequence
+    sprites = []
+    for digit in str(total).zfill(7):
+        with Image.open(ROOT / 'assets/moe-counter' / f'{digit}.gif') as image:
+            frames = [(frame.convert('RGBA'), frame.info.get('duration', 40))
+                      for frame in ImageSequence.Iterator(image)]
+        sprites.append(frames)
+    width = sum(frames[0][0].width for frames in sprites)
+    height = max(frames[0][0].height for frames in sprites)
+    cycle = max(sum(duration for _, duration in frames) for frames in sprites)
+    output = []
+    for time in range(0, cycle, 40):
+        canvas = Image.new('RGBA', (width, height))
+        x = 0
+        for frames in sprites:
+            elapsed = time % sum(duration for _, duration in frames)
+            for frame, duration in frames:
+                if elapsed < duration:
+                    break
+                elapsed -= duration
+            canvas.alpha_composite(frame, (x, height - frame.height))
+            x += frame.width
+        palette = canvas.convert('RGB').quantize(colors=255)
+        palette.paste(255, mask=canvas.getchannel('A').point(lambda alpha: 255 if alpha == 0 else 0))
+        palette.info['transparency'] = 255
+        output.append(palette)
+    output[0].save(ROOT / 'assets/downloads.gif', save_all=True,
+                   append_images=output[1:], duration=40, loop=0,
+                   transparency=255, disposal=2, optimize=False)
+
+
 def main():
     counts = {}
     for repo in pages(f'users/{OWNER}/repos'):
@@ -41,20 +71,7 @@ def main():
     total = sum(counts.values())
     if total == 0:
         raise RuntimeError('No downloads returned; keep the previous counter instead of rendering a visit count.')
-    digits = str(total).zfill(7)
-    parts = []
-    left = 0
-    height = 0
-    for digit in digits:
-        data = (ROOT / 'assets/moe-counter' / f'{digit}.gif').read_bytes()
-        width, h = struct.unpack('<HH', data[6:10])
-        height = max(height, h)
-        encoded = base64.b64encode(data).decode('ascii')
-        parts.append(f'<image x="{left}" width="{width}" height="{h}" href="data:image/gif;base64,{encoded}"/>')
-        left += width
-    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{left}" height="{height}" viewBox="0 0 {left} {height}" role="img" aria-label="{total} release file downloads">'
-           f'<title>{total:,} release file downloads</title>' + ''.join(parts) + '</svg>\n')
-    (ROOT / 'assets/downloads.svg').write_text(svg)
+    render_counter(total)
     (ROOT / 'assets/downloads.json').write_text(
         json.dumps({'total': total, 'repositories': dict(sorted(counts.items()))}, indent=2) + '\n')
     print(f'{total:,} release asset downloads across {len(counts)} repositories with downloads')
