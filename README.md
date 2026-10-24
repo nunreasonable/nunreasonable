@@ -45,13 +45,15 @@ Won't really say much except:
   </picture>
 </a>
 
-#### [ii on Windows](https://github.com/nunreasonable/ii-windows)
+#### [Illogical Windows](https://github.com/nunreasonable/ii-windows)
 
 end-4's [illogical-impulse](https://github.com/end-4/dots-hyprland) Quickshell desktop, ported from Hyprland to run natively on Windows 10 and 11, through a Quickshell fork with a native Windows backend (C++, Qt 6 / QML, Direct3D 11, WinRT). Spotlight search, optional dwindle tiling, `Win`+drag, the Settings app, screen recording, live video wallpapers and Material You colors from your wallpaper, in two looks: ii's original or pctrade's [end4-pC](https://github.com/pctrade/end4-pC). The GUI setup is Rust / Tauri and installs per user, no admin rights needed.
 
-Stable is **0.10.1-fix2 "Tahiti Mangosellers"**, and **1.0.0 "Jazz-Handed Octopus"** is in beta as a pre-release.
+**Illogical Windows** (formerly ii-windows): **26.1.1.0 unstable “Bureaucratic Hamster”** is available as an unsigned, less-tested preview. **1.0.8 “Jazz-Handed Octopus” remains stable**. The preview adds Scrolling tiling, NabyScape style, automatic light/dark mode, calendar events and experimental native ARM64 support (Windows 11 24H2 build 26100.2605+). Defender may flag or remove the preview; signed builds start with the final 26.1.1.0. Return through Settings → About → Go back to 1.0.8 (stable), or choose Stable in the setup.
 
-<sub>[showcase](https://apps.daeese.me/illogicalwindows/) · [download the setup](https://github.com/nunreasonable/ii-windows/releases/latest) · [quickshell fork](https://github.com/nunreasonable/quickshell/tree/windows) · [ii fork](https://github.com/nunreasonable/dots-hyprland/tree/ii-windows)</sub>
+[Preview notes and downloads](https://github.com/nunreasonable/ii-windows/releases/tag/v26.1.1.0-unstable) · [Stable 1.0.8](https://github.com/nunreasonable/ii-windows/releases/tag/v1.0.8)
+
+<sub>[showcase](https://apps.daeese.me/illogicalwindows/) · [stable setup](https://github.com/nunreasonable/ii-windows/releases/tag/v1.0.8) · [quickshell fork](https://github.com/nunreasonable/quickshell/tree/windows) · [ii fork](https://github.com/nunreasonable/dots-hyprland/tree/ii-windows)</sub>
 
 <br/>
 
