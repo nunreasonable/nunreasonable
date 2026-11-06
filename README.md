@@ -116,8 +116,8 @@ Discord bot in C# / .NET for community servers: moderation with a warning histor
 ### Stats
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=nunreasonable&show_icons=true&hide_border=true&theme=transparent&hide_title=true" alt="github stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nunreasonable&layout=compact&hide_border=true&theme=transparent&hide_title=true&langs_count=8" alt="top languages" height="150" />
+  <img src="https://github-stats-extended.vercel.app/api?username=nunreasonable&show_icons=true&hide_border=true&theme=transparent&hide_title=true" alt="github stats" height="150" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=nunreasonable&layout=compact&hide_border=true&theme=transparent&hide_title=true&langs_count=8" alt="top languages" height="150" />
 </p>
 
 <p align="center"><sub>online now — @daeese · @nunreasonable</sub></p>
