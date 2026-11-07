@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="DAEESE - Developer yes? :p">
-<title>DAEESE</title>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="daeese - Developer yes? :p">
+<title>daeese</title>
 <style>
-.name{font:800 92px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;letter-spacing:6px;fill:#f2ede4;stroke:#ff2d62;stroke-width:1.6;stroke-dasharray:460;stroke-dashoffset:0;animation:draw 3.2s cubic-bezier(.4,0,.2,1) both}
+.name{font:800 92px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;letter-spacing:-2px;fill:#f2ede4;stroke:#ff2d62;stroke-width:1.6;stroke-dasharray:460;stroke-dashoffset:0;animation:draw 3.2s cubic-bezier(.4,0,.2,1) both}
 @keyframes draw{0%{stroke-dashoffset:460;fill-opacity:0}60%{stroke-dashoffset:0;fill-opacity:0}100%{stroke-dashoffset:0;fill-opacity:1}}
 .tag{font:500 19px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#f2ede4}
 .pr{font:700 19px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#ff2d62}
@@ -48,8 +48,8 @@
 <g transform="translate(2.4 -2.4)"><use href="#mz" class="zb" stroke-width="18"/><use href="#mc" class="zb" stroke-width="15"/></g>
 <g transform="translate(4.8 -4.8)"><use href="#mz" class="zt" stroke-width="18"/><use href="#mc" class="zt" stroke-width="15"/></g>
 </g></g>
-<text class="chip" x="300" y="64">DAEESE · NUNREASONABLE · DAEESED</text>
-<text class="name" x="294" y="152" textLength="420" lengthAdjust="spacing">DAEESE</text>
+<text class="chip" x="300" y="64">daeese · nunreasonable · daeeseD</text>
+<text class="name" x="294" y="152">daeese</text>
 <line class="ln" x1="300" y1="176" x2="840" y2="176"/>
 <text class="pr" x="276" y="206">&gt;</text>
 <text class="url" x="860" y="236" text-anchor="end">daeese.me</text>

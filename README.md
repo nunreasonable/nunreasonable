@@ -2,7 +2,7 @@
   <a href="https://daeese.me">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg" />
-      <img src="assets/header-light.svg" alt="DAEESE, Developer yes? :p" width="900" />
+      <img src="assets/header-light.svg" alt="daeese, Developer yes? :p" width="900" />
     </picture>
   </a>
 </p>
