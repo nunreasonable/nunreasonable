@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180" role="img" aria-label="ccore, chavinhoCORE: administration bot for the 12° Regimento de Infantaria">
+<title>ccore — chavinhoCORE</title>
+<style>
+.ti{font:700 32px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#eef1f7}
+.sub{font:400 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#9aa3b4}
+.eb{font:600 12px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#e0434e;letter-spacing:3px}
+.au{transform-box:fill-box;transform-origin:center;animation:au 12s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.92)}100%{opacity:1;transform:translateX(26px) scale(1.08)}}
+.pl{font:600 11px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#eef1f7}
+.lg{font:500 9px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#9aa3b4}
+.sh{font:800 17px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#ffffff}
+.pd{transform-box:fill-box;transform-origin:center;animation:pd 3.2s ease-in-out infinite}
+@keyframes pd{0%,100%{opacity:.35;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+.pr{transform-box:fill-box;transform-origin:center;animation:pr 3.2s ease-out infinite}
+@keyframes pr{0%{opacity:.6;transform:scale(1)}70%,100%{opacity:0;transform:scale(2.6)}}
+.pg{animation:pg 6.4s ease-in-out infinite}
+@keyframes pg{0%,100%{opacity:.55}50%{opacity:1}}
+.rw{animation:rw 12s ease infinite backwards}
+@keyframes rw{0%{opacity:0;transform:translateX(-8px)}6%,88%{opacity:1;transform:translateX(0)}96%,100%{opacity:0;transform:translateX(0)}}
+.rg{transform-box:fill-box;transform-origin:center;animation:rg 60s linear infinite}
+@keyframes rg{to{transform:rotate(360deg)}}
+.sg{transform-box:fill-box;transform-origin:center;animation:sg 9s ease-in-out infinite alternate}
+@keyframes sg{0%{opacity:.5;transform:scale(.9)}100%{opacity:1;transform:scale(1.1)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04060c"/><stop offset="1" stop-color="#0a1222"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".06"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#2b4a8a" stop-opacity=".55"/><stop offset="1" stop-color="#2b4a8a" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="860" height="180" rx="18"/></clipPath>
+<linearGradient id="shf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#24407a"/><stop offset="1" stop-color="#14254a"/></linearGradient>
+<radialGradient id="shg"><stop offset="0" stop-color="#d42a35" stop-opacity=".45"/><stop offset="1" stop-color="#d42a35" stop-opacity="0"/></radialGradient>
+<clipPath id="shc"><path d="M556 40h52v36c0 22-12 34-26 42-14-8-26-20-26-42z"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="860" height="180" rx="18" fill="url(#bg)"/>
+<rect width="860" height="180" fill="url(#dots)"/>
+<ellipse class="au" cx="150" cy="70" rx="260" ry="130" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="179" rx="17.5" fill="none" stroke="rgba(120,150,210,.22)"/>
+<text class="eb" x="42" y="58">ADMIN BOT · C# / .NET · 12° RI</text>
+<text class="ti" x="40" y="100">ccore — chavinhoCORE</text>
+<text class="sub" x="41" y="132">enlistment · Roblox verification · deployments</text>
+<ellipse class="sg" cx="582" cy="82" rx="80" ry="64" fill="url(#shg)"/>
+<path d="M552 36h60v40c0 25-14 38-30 47-16-9-30-22-30-47z" fill="#3b5a96"/>
+<path d="M556 40h52v36c0 22-12 34-26 42-14-8-26-20-26-42z" fill="url(#shf)"/>
+<g clip-path="url(#shc)">
+<path d="M556 92l26 14 26-14v8l-26 14-26-14z" fill="#d42a35"/>
+<path d="M556 102l26 14 26-14v8l-26 14-26-14z" fill="#d42a35" fill-opacity=".6"/>
+<rect x="556" y="40" width="52" height="7" fill="#d42a35"/>
+</g>
+<text class="sh" x="582" y="80" text-anchor="middle">12°</text>
+<g class="rg"><circle cx="582" cy="82" r="56" fill="none" stroke="#3b5a96" stroke-opacity=".55" stroke-dasharray="2 6"/></g>
+<circle cx="582" cy="82" r="64" fill="none" stroke="#3b5a96" stroke-opacity=".25"/>
+<g class="pg"><rect x="644" y="44" width="184" height="26" rx="13" fill="rgba(240,180,76,.1)" stroke="rgba(240,180,76,.4)"/></g>
+<circle class="pr" cx="660" cy="57" r="4" fill="none" stroke="#f0b44c"/>
+<circle class="pd" cx="660" cy="57" r="4" fill="#f0b44c"/>
+<text class="pl" x="672" y="61">fewer updates — not disabled</text>
+<g class="rw" style="animation-delay:0.0s"><text class="lg" x="646" y="98"><tspan fill="#e0434e">›</tspan> enlist</text><path d="M722 94l3 3 6-6" fill="none" stroke="#5fc48a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text class="lg" x="736" y="98">roblox verified</text></g><g class="rw" style="animation-delay:0.8s"><text class="lg" x="646" y="113"><tspan fill="#e0434e">›</tspan> deploy</text><path d="M722 109l3 3 6-6" fill="none" stroke="#5fc48a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text class="lg" x="736" y="113">posted</text></g><g class="rw" style="animation-delay:1.6s"><text class="lg" x="646" y="128"><tspan fill="#e0434e">›</tspan> sheet</text><path d="M722 124l3 3 6-6" fill="none" stroke="#5fc48a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text class="lg" x="736" y="128">synced</text></g><g class="rw" style="animation-delay:2.4s"><text class="lg" x="646" y="143"><tspan fill="#e0434e">›</tspan> announce</text><path d="M722 139l3 3 6-6" fill="none" stroke="#5fc48a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><text class="lg" x="736" y="143">sent</text></g>
+</svg>

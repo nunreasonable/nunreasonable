@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180" role="img" aria-label="VLTRA Entertainment: a Roblox game studio">
+<title>VLTRA Entertainment</title>
+<style>
+.ti{font:700 34px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f2f2f2}
+.sub{font:400 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#9c9c9c}
+.eb{font:600 12px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#c8ff3c;letter-spacing:3px}
+.au{transform-box:fill-box;transform-origin:center;animation:au 12s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.92)}100%{opacity:1;transform:translateX(26px) scale(1.08)}}
+.wm{font:900 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f2f2f2;letter-spacing:4px}
+.hu{font:700 8px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#9c9c9c;letter-spacing:1px}
+.ps{font:700 9px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#c8ff3c;letter-spacing:2px}
+.hero{animation:hero 5s linear infinite}
+@keyframes hero{0%{transform:translate(0,0)}8%{transform:translate(22px,-46px)}16%,24%{transform:translate(44px,-30px)}32%{transform:translate(66px,-44px)}40%,48%{transform:translate(88px,-14px)}56%{transform:translate(110px,-56px)}64%,72%{transform:translate(132px,-40px)}80%{transform:translate(154px,-52px)}88%,100%{transform:translate(176px,-20px)}}
+.hw{animation:hw 5s linear infinite}
+@keyframes hw{0%{opacity:0}3%,92%{opacity:1}97%,100%{opacity:0}}
+.co{transform-box:fill-box;transform-origin:center;animation:co 1.4s ease-in-out infinite alternate}
+@keyframes co{0%{transform:scaleX(1)}100%{transform:scaleX(.35)}}
+.bk{animation:bk 1.2s steps(1) infinite}
+@keyframes bk{60%{opacity:0}}
+.st{animation:st 18s linear infinite}
+@keyframes st{to{transform:translateX(-120px)}}
+.sh{transform:translateX(-140px);animation:sh 6s cubic-bezier(.45,0,.25,1) infinite}
+@keyframes sh{0%,15%{transform:translateX(-140px)}55%,100%{transform:translateX(260px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050505"/><stop offset="1" stop-color="#111111"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".06"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#9a9a9a" stop-opacity=".22"/><stop offset="1" stop-color="#9a9a9a" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="860" height="180" rx="18"/></clipPath>
+<clipPath id="pn"><rect x="492" y="20" width="344" height="140" rx="12"/></clipPath>
+<linearGradient id="scr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c0c0c"/><stop offset="1" stop-color="#1c1c1c"/></linearGradient>
+<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".9"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<clipPath id="wmc"><text class="wm" x="508" y="44">VLTRA</text></clipPath>
+<pattern id="px" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="2" height="2" fill="rgba(255,255,255,.025)"/></pattern>
+</defs>
+<g clip-path="url(#card)">
+<rect width="860" height="180" rx="18" fill="url(#bg)"/>
+<rect width="860" height="180" fill="url(#dots)"/>
+<ellipse class="au" cx="150" cy="70" rx="260" ry="130" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="179" rx="17.5" fill="none" stroke="rgba(255,255,255,.14)"/>
+<text class="eb" x="42" y="58">GAME STUDIO · ROBLOX · LUAU</text>
+<text class="ti" x="40" y="100">VLTRA Entertainment</text>
+<text class="sub" x="41" y="132">systems, gameplay and tooling, in Luau</text>
+<g clip-path="url(#pn)">
+<rect x="492" y="20" width="344" height="140" fill="url(#scr)"/>
+<rect x="492" y="20" width="344" height="140" fill="url(#px)"/>
+<g class="st" fill="rgba(255,255,255,.35)"><rect x="502" y="52" width="2" height="2"/><rect x="530" y="40" width="2" height="2"/><rect x="554" y="58" width="2" height="2"/><rect x="576" y="46" width="2" height="2"/><rect x="596" y="66" width="2" height="2"/><rect x="516" y="72" width="2" height="2"/><rect x="622" y="52" width="2" height="2"/><rect x="650" y="40" width="2" height="2"/><rect x="674" y="58" width="2" height="2"/><rect x="696" y="46" width="2" height="2"/><rect x="716" y="66" width="2" height="2"/><rect x="636" y="72" width="2" height="2"/><rect x="742" y="52" width="2" height="2"/><rect x="770" y="40" width="2" height="2"/><rect x="794" y="58" width="2" height="2"/><rect x="816" y="46" width="2" height="2"/><rect x="836" y="66" width="2" height="2"/><rect x="756" y="72" width="2" height="2"/><rect x="862" y="52" width="2" height="2"/><rect x="890" y="40" width="2" height="2"/><rect x="914" y="58" width="2" height="2"/><rect x="936" y="46" width="2" height="2"/><rect x="956" y="66" width="2" height="2"/><rect x="876" y="72" width="2" height="2"/></g>
+<rect x="492" y="144" width="344" height="16" fill="#2c2c2c"/><rect x="492" y="144" width="344" height="2" fill="#5a5a5a"/>
+<rect x="520" y="136" width="40" height="8" fill="#2c2c2c"/><rect x="520" y="136" width="40" height="2" fill="#5a5a5a"/><rect x="564" y="106" width="30" height="8" fill="#2c2c2c"/><rect x="564" y="106" width="30" height="2" fill="#5a5a5a"/><rect x="604" y="122" width="34" height="8" fill="#2c2c2c"/><rect x="604" y="122" width="34" height="2" fill="#5a5a5a"/><rect x="648" y="96" width="34" height="8" fill="#2c2c2c"/><rect x="648" y="96" width="34" height="2" fill="#5a5a5a"/><rect x="690" y="116" width="40" height="8" fill="#2c2c2c"/><rect x="690" y="116" width="40" height="2" fill="#5a5a5a"/>
+<rect class="co" style="animation-delay:0.0s" x="576" y="92" width="6" height="8" rx="1" fill="#c8ff3c"/><rect class="co" style="animation-delay:-0.3s" x="660" y="82" width="6" height="8" rx="1" fill="#c8ff3c"/><rect class="co" style="animation-delay:-0.6s" x="706" y="102" width="6" height="8" rx="1" fill="#c8ff3c"/>
+<g class="hw"><g class="hero"><rect x="528" y="124" width="10" height="12" fill="#c8ff3c"/><rect x="530" y="127" width="2" height="2" fill="#0c0c0c"/><rect x="534" y="127" width="2" height="2" fill="#0c0c0c"/></g></g>
+<rect x="744" y="76" width="76" height="68" fill="#2c2c2c"/><rect x="744" y="76" width="76" height="2" fill="#5a5a5a"/>
+<path d="M782 56v20" stroke="#f2f2f2" stroke-width="1.5"/><path d="M782 56l14 5-14 5z" fill="#c8ff3c"/>
+<text class="wm" x="508" y="44">VLTRA</text>
+<g clip-path="url(#wmc)"><g transform="skewX(-20)"><rect class="sh" x="560" y="28" width="40" height="22" fill="url(#shg)"/></g></g>
+<text class="hu" x="826" y="42" text-anchor="end">LVL 01 · 00450</text>
+<text class="ps bk" x="782" y="112" text-anchor="middle">PRESS</text><text class="ps bk" x="782" y="124" text-anchor="middle">START</text>
+</g>
+<rect x="492.5" y="20.5" width="343" height="139" rx="11.5" fill="none" stroke="rgba(255,255,255,.12)"/>
+</svg>

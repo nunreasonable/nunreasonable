@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180" role="img" aria-label="Gentoo overlays: Portage ebuilds for Rosemary, Ginrose and Mocktail">
+<title>Gentoo overlays</title>
+<style>
+.ti{font:700 34px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#16122a}
+.sub{font:400 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#5c5870}
+.eb{font:600 12px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#54487a;letter-spacing:3px}
+.au{transform-box:fill-box;transform-origin:center;animation:au 12s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.92)}100%{opacity:1;transform:translateX(26px) scale(1.08)}}
+.tm{font:500 9px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#26213d}
+.tb{font:600 8.5px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#5c5870}
+.ty{transform-box:fill-box;transform-origin:0 0}
+.cm{animation:cm 10s steps(41,end) infinite}
+@keyframes cm{0%,3%{transform:scaleX(0)}17%,100%{transform:scaleX(1)}}
+.cur{animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.all{animation:all 10s linear infinite}
+@keyframes all{0%,92%{opacity:1}97%,100%{opacity:0}}
+.l0{animation:l0 10s ease infinite}
+@keyframes l0{0%,20%{opacity:0;transform:translateY(4px)}22%,100%{opacity:1;transform:translateY(0)}}
+.k0{transform-box:fill-box;transform-origin:center;animation:k0 10s cubic-bezier(.3,1.6,.5,1) infinite}
+@keyframes k0{0%,28%{opacity:0;transform:scale(.3)}31%,100%{opacity:1;transform:scale(1)}}
+.s0{opacity:0;animation:s0 10s steps(1) infinite}
+@keyframes s0{0%,20%{opacity:0}21%,28%{opacity:1}29%,100%{opacity:0}}
+.l1{animation:l1 10s ease infinite}
+@keyframes l1{0%,32%{opacity:0;transform:translateY(4px)}34%,100%{opacity:1;transform:translateY(0)}}
+.k1{transform-box:fill-box;transform-origin:center;animation:k1 10s cubic-bezier(.3,1.6,.5,1) infinite}
+@keyframes k1{0%,40%{opacity:0;transform:scale(.3)}43%,100%{opacity:1;transform:scale(1)}}
+.s1{opacity:0;animation:s1 10s steps(1) infinite}
+@keyframes s1{0%,32%{opacity:0}33%,40%{opacity:1}41%,100%{opacity:0}}
+.l2{animation:l2 10s ease infinite}
+@keyframes l2{0%,44%{opacity:0;transform:translateY(4px)}46%,100%{opacity:1;transform:translateY(0)}}
+.k2{transform-box:fill-box;transform-origin:center;animation:k2 10s cubic-bezier(.3,1.6,.5,1) infinite}
+@keyframes k2{0%,52%{opacity:0;transform:scale(.3)}55%,100%{opacity:1;transform:scale(1)}}
+.s2{opacity:0;animation:s2 10s steps(1) infinite}
+@keyframes s2{0%,44%{opacity:0}45%,52%{opacity:1}53%,100%{opacity:0}}
+.jb{animation:jb 10s ease infinite}
+@keyframes jb{0%,58%{opacity:0}61%,100%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfafd"/><stop offset="1" stop-color="#efedf6"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#140f2a" fill-opacity=".08"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#7d6fd0" stop-opacity=".24"/><stop offset="1" stop-color="#7d6fd0" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="860" height="180" rx="18"/></clipPath>
+<clipPath id="pn"><rect x="492" y="20" width="344" height="140" rx="12"/></clipPath>
+<clipPath id="cc"><rect class="ty cm" x="506" y="44" width="225.5" height="13"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="860" height="180" rx="18" fill="url(#bg)"/>
+<rect width="860" height="180" fill="url(#dots)"/>
+<ellipse class="au" cx="150" cy="70" rx="260" ry="130" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="179" rx="17.5" fill="none" stroke="rgba(84,72,122,.2)"/>
+<text class="eb" x="42" y="58">PORTAGE OVERLAYS · GENTOO</text>
+<text class="ti" x="40" y="100">Gentoo overlays</text>
+<text class="sub" x="41" y="132">Rosemary, Ginrose and Mocktail, ready to emerge</text>
+<g clip-path="url(#pn)">
+<rect x="492" y="20" width="344" height="140" fill="#fdfcff"/>
+<rect x="492" y="20" width="344" height="18" fill="rgba(84,72,122,.07)"/>
+<circle cx="504" cy="29" r="2.4" fill="#54487a"/><circle cx="512" cy="29" r="2.4" fill="rgba(38,33,61,.42)"/><circle cx="520" cy="29" r="2.4" fill="rgba(38,33,61,.42)"/>
+<text class="tb" x="664" y="32" text-anchor="middle">root — emerge</text>
+<g class="all">
+<text class="tm" x="506" y="54" clip-path="url(#cc)"><tspan fill="#c0303c">#</tspan> emerge -a rosemary ginrose mocktail-bin</text>
+<g class="l0"><text class="tm" x="506" y="72"><tspan fill="#1f8a3c">&gt;&gt;&gt;</tspan> (1 of 3) app-emulation/rosemary-0.4.1<tspan fill="rgba(38,33,61,.42)">::rosemary</tspan></text></g><g class="s0"><circle cx="820" cy="69" r="3.5" fill="none" stroke="rgba(38,33,61,.42)" stroke-width="1.4" stroke-dasharray="11 11"/></g><g class="k0"><path d="M815.5 69l3 3 5.5-6" fill="none" stroke="#1f8a3c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g><g class="l1"><text class="tm" x="506" y="87"><tspan fill="#1f8a3c">&gt;&gt;&gt;</tspan> (2 of 3) games-util/ginrose-0.3.4<tspan fill="rgba(38,33,61,.42)">::rosemary</tspan></text></g><g class="s1"><circle cx="820" cy="84" r="3.5" fill="none" stroke="rgba(38,33,61,.42)" stroke-width="1.4" stroke-dasharray="11 11"/></g><g class="k1"><path d="M815.5 84l3 3 5.5-6" fill="none" stroke="#1f8a3c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g><g class="l2"><text class="tm" x="506" y="102"><tspan fill="#1f8a3c">&gt;&gt;&gt;</tspan> (3 of 3) app-emulation/mocktail-bin-1.0.4<tspan fill="rgba(38,33,61,.42)">::mocktail</tspan></text></g><g class="s2"><circle cx="820" cy="99" r="3.5" fill="none" stroke="rgba(38,33,61,.42)" stroke-width="1.4" stroke-dasharray="11 11"/></g><g class="k2"><path d="M815.5 99l3 3 5.5-6" fill="none" stroke="#1f8a3c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="jb"><text class="tm" x="506" y="126"><tspan fill="#1f8a3c">&gt;&gt;&gt;</tspan> <tspan fill="#54487a">Jobs: 3 of 3 complete</tspan></text>
+<text class="tm" x="506" y="146"><tspan fill="#c0303c">#</tspan></text><rect class="cur" x="514" y="138" width="5.5" height="10" fill="#26213d"/></g>
+</g>
+</g>
+<rect x="492.5" y="20.5" width="343" height="139" rx="11.5" fill="none" stroke="rgba(20,15,42,.15)"/>
+</svg>

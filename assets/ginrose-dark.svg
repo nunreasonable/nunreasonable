@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180" role="img" aria-label="Ginrose: a Roblox launcher for Linux, built around Rosemary">
+<title>Ginrose</title>
+<style>
+.ti{font:700 34px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f6eef1}
+.sub{font:400 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#a9a0a5}
+.eb{font:600 12px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#fb749a;letter-spacing:3px}
+.au{transform-box:fill-box;transform-origin:center;animation:au 12s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.92)}100%{opacity:1;transform:translateX(26px) scale(1.08)}}
+.lt{font:700 13px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#f6eef1}
+.ls{font:500 9px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#a9a0a5}
+.mt{font:600 8.5px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#a9a0a5}
+.bt{font:700 10px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#2a0614}
+.pf{transform-box:fill-box;transform-origin:0 50%;animation:pf 8s cubic-bezier(.4,0,.2,1) infinite}
+@keyframes pf{0%,6%{transform:scaleX(0)}34%,100%{transform:scaleX(1)}}
+.up{opacity:0;animation:up 8s steps(1) infinite}
+@keyframes up{0%,35%{opacity:1}36%,100%{opacity:0}}
+.rd{animation:rd 8s steps(1) infinite}
+@keyframes rd{0%,35%{opacity:0}36%,100%{opacity:1}}
+.pb{transform-box:fill-box;transform-origin:center;animation:pb 8s ease infinite}
+@keyframes pb{0%,43%{transform:scale(1)}45%{transform:scale(.93)}48%,100%{transform:scale(1)}}
+.cu{opacity:0;animation:cu 8s cubic-bezier(.3,.7,.3,1) infinite}
+@keyframes cu{0%,30%{opacity:0;transform:translate(46px,-46px)}34%{opacity:1;transform:translate(46px,-46px)}42%,47%{opacity:1;transform:translate(0,0)}52%,100%{opacity:0;transform:translate(0,0)}}
+.gw{transform-box:fill-box;transform-origin:0 100%;animation:gw 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes gw{0%,47%{opacity:0;transform:scale(.6)}55%{opacity:1;transform:scale(1)}92%{opacity:1;transform:scale(1)}99%,100%{opacity:0;transform:scale(1)}}
+.av{animation:av 1.6s cubic-bezier(.3,0,.3,1) infinite}
+@keyframes av{0%,55%,100%{transform:translateY(0)}75%{transform:translateY(-9px)}}
+.cl{animation:cl 9s linear infinite}
+@keyframes cl{0%{transform:translateX(0)}100%{transform:translateX(-60px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070305"/><stop offset="1" stop-color="#14060c"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity=".06"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#fb749a" stop-opacity=".42"/><stop offset="1" stop-color="#fb749a" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="860" height="180" rx="18"/></clipPath>
+<linearGradient id="dk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c0812"/><stop offset="1" stop-color="#40102a"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a1830"/><stop offset="1" stop-color="#a34a6c"/></linearGradient>
+<clipPath id="pn"><rect x="492" y="20" width="344" height="140" rx="12"/></clipPath>
+<clipPath id="gc"><rect x="636" y="44" width="186" height="100" rx="5"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="860" height="180" rx="18" fill="url(#bg)"/>
+<rect width="860" height="180" fill="url(#dots)"/>
+<ellipse class="au" cx="150" cy="70" rx="260" ry="130" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="179" rx="17.5" fill="none" stroke="rgba(251,116,154,.22)"/>
+<text class="eb" x="42" y="58">ROBLOX LAUNCHER · LINUX · RUST</text>
+<text class="ti" x="40" y="100">Ginrose</text>
+<text class="sub" x="41" y="132">auto-updates · uncapped FPS · per-game profiles</text>
+<g clip-path="url(#pn)">
+<rect x="492" y="20" width="344" height="140" fill="url(#dk)"/>
+<g class="gw">
+<rect x="630" y="30" width="198" height="120" rx="8" fill="#1a1015" stroke="rgba(255,255,255,.12)"/>
+<circle cx="804" cy="37.5" r="2.2" fill="rgba(246,219,230,.22)"/><circle cx="811" cy="37.5" r="2.2" fill="rgba(246,219,230,.22)"/><circle cx="818" cy="37.5" r="2.2" fill="#fb749a"/>
+<g clip-path="url(#gc)">
+<rect x="636" y="44" width="186" height="100" fill="url(#sky)"/>
+<circle cx="790" cy="66" r="10" fill="#ffc2d1"/>
+<g class="cl" fill="rgba(255,255,255,.28)"><rect x="700" y="58" width="30" height="8" rx="4"/><rect x="760" y="78" width="22" height="6" rx="3"/><rect x="820" y="56" width="30" height="8" rx="4"/></g>
+<g fill="#5c1736"><rect x="636" y="118" width="186" height="26"/><rect x="664" y="106" width="40" height="12"/><rect x="742" y="98" width="32" height="20"/><rect x="774" y="110" width="48" height="8"/></g>
+<g fill="#fb749a"><rect x="636" y="118" width="186" height="4"/><rect x="664" y="106" width="40" height="4"/><rect x="742" y="98" width="32" height="4"/><rect x="774" y="110" width="48" height="4"/></g>
+<g class="av"><rect x="714" y="96" width="10" height="10" rx="1.5" fill="#ffd9e2"/><rect x="712" y="106" width="14" height="12" rx="1" fill="#fb749a"/></g>
+</g>
+</g>
+<g class="ln">
+<rect x="506" y="38" width="150" height="104" rx="10" fill="#1a1015" stroke="rgba(255,255,255,.12)"/>
+<g transform="translate(529 62)">
+<clipPath id="lgc"><rect x="-9.2" y="-9.2" width="18.4" height="18.4" rx="3.7" transform="rotate(45)"/></clipPath>
+<g fill="#fb749a"><rect x="-9.2" y="-9.2" width="18.4" height="18.4" rx="3.7" transform="rotate(45)"/></g>
+<g clip-path="url(#lgc)" fill="#c01452">
+<path d="M-1.3 1.9L-15.6 0L0 -15.6Q-2.6 -7.2 2.6 -1.9Z"/>
+<path d="M1.3 -1.9L15.6 0L0 15.6Q2.6 7.2 -2.6 1.9Z"/>
+</g>
+<rect x="-3.9" y="-3.9" width="7.8" height="7.8" rx="1" transform="rotate(16)" fill="#c01452"/>
+<rect x="-2.2" y="-2.2" width="4.4" height="4.4" transform="rotate(16)" fill="#1a1015"/>
+</g>
+<text class="lt" x="546" y="60">Ginrose</text>
+<text class="ls" x="546" y="72">macOS client, on Linux</text>
+<text class="mt up" x="518" y="98">updating client…</text>
+<text class="mt rd" x="518" y="98">ready</text>
+<rect x="518" y="103" width="126" height="5" rx="2.5" fill="rgba(246,219,230,.22)"/>
+<rect class="pf" x="518" y="103" width="126" height="5" rx="2.5" fill="#fb749a"/>
+<g class="pb"><rect x="518" y="115" width="126" height="18" rx="9" fill="#fb749a"/>
+<path d="M565 119.5v9l7.5-4.5z" fill="#2a0614"/><text class="bt" x="577" y="128">Play</text></g>
+</g>
+<g class="cu"><path d="M600 124l0 13 3.4-3.2 2.4 5.2 2.4-1.1-2.4-5.1 4.6-.3z" fill="#ffffff" stroke="#1a1015" stroke-width=".8" stroke-linejoin="round"/></g>
+</g>
+<rect x="492.5" y="20.5" width="343" height="139" rx="11.5" fill="none" stroke="rgba(255,255,255,.12)"/>
+</svg>

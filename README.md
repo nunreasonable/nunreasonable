@@ -72,14 +72,127 @@ Discord bot in C# / .NET for community servers: moderation with a warning histor
 
 <br/>
 
-#### More
+<a href="https://apps.daeese.me/ginrose/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ginrose-dark.svg" />
+    <img src="assets/ginrose-light.svg" alt="Ginrose: a Roblox launcher for Linux, built around Rosemary" width="860" />
+  </picture>
+</a>
 
-| Project | What it is |
-| --- | --- |
-| **[Blood Oath: Brazil 1898](https://www.roblox.com/communities/17047605/Imperial-Engineer-Corps#!/about)** | Open-world Roblox game in Luau, set in the sertão of northeastern Brazil in 1898, the age of the cangaço. Pick a side between four factions — cangaceiros, the Volante police, jagunços and sertanejos — and build up fame, bounties and a story told in chapters, with player-founded gangs and volantes. In development by my group, the Imperial Engineer Corps.<br/><sub>[group](https://www.roblox.com/communities/17047605/Imperial-Engineer-Corps#!/about) · [discord](https://discord.com/invite/fdD6Mc6CAw)</sub> |
-| **[ccore — chavinhoCORE](https://github.com/nunreasonable/cornwall-discord-application)** | The project Sollarety's infrastructure came from. Administration bot in C# / .NET for the 12° Regimento de Infantaria "Chaves" in CONSTANTES: enlistment with automatic Roblox verification, deployments, the regiment's spreadsheet and announcements. Server-locked on purpose. ccore for the 12° won't get as many updates from now on (it isn't disabled): it was the kickstart that let Sollarety shine. In the near future it may be rebranded into an "engine", my own Discord bot / app template for building any app.<br/><sub>[site](https://ccore.daeese.me/) · [terms](https://ccore.daeese.me/termsofservice/) · [privacy](https://ccore.daeese.me/privacypolicy/)</sub> |
-| **[mocktail-gentoo-overlay](https://github.com/nunreasonable/mocktail-gentoo-overlay/tree/gentoo-overlay)** | Unofficial Portage overlay with ebuilds for [Mocktail](https://github.com/komaruworld/mocktail), the compatibility runtime that runs the Android x86-64 Roblox client on Linux, so Gentoo users can `emerge` it. Ships `app-emulation/mocktail` (source build plus a live `-9999`) and `app-emulation/mocktail-bin` as a prebuilt fallback.<br/><sub>ebuilds only — I maintain the packaging, not the software</sub> |
-| **[VLTRA Entertainment](https://discord.gg/3qdvhkNSS8)** | Where I work as a fullstack developer — systems, gameplay and tooling in Luau. The studio's community lives on Discord.<br/><sub>[discord](https://discord.gg/3qdvhkNSS8)</sub> |
+#### [Ginrose](https://github.com/nunreasonable/ginrose)
+
+Open-source community launcher that runs the official macOS Roblox client on Linux through [Rosemary](https://github.com/microlift/rosemary), a macOS compatibility layer. It downloads the client straight from Roblox and keeps it up to date, lifts the frame-rate cap, offers FastFlags from Roblox's allowlist and per-game profiles, checks the machine for things that get in the way, and shows what you're playing on Discord. The client itself is never modified. Rust with GTK 4 / libadwaita, GPL-3.0+; experimental and only tested on one setup.
+
+**0.3.4** is current: a Flatpak with a one-line installer, plus Arch, Debian and RPM packages. The Flatpak ships Ginrose's build of Rosemary 0.5.0, with microphone input for voice chat and Ctrl standing in for Command in copy and paste.
+
+<sub>[site](https://apps.daeese.me/ginrose/) · [install](https://github.com/nunreasonable/ginrose-flatpak#install) · [releases](https://github.com/nunreasonable/ginrose-flatpak/releases/latest) · [source](https://github.com/nunreasonable/ginrose)</sub>
+
+<br/>
+
+<a href="https://apps.daeese.me/ginrose-studio/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ginrose-studio-dark.svg" />
+    <img src="assets/ginrose-studio-light.svg" alt="Ginrose Studio: a Roblox Studio launcher for Linux, built around Rosemary" width="860" />
+  </picture>
+</a>
+
+#### [Ginrose Studio](https://github.com/nunreasonable/ginrose-studio)
+
+The same idea for Roblox Studio: runs the official macOS Roblox Studio on Linux through Rosemary, built from Ginrose's code as a second program with its own app ID, folders and prefix. It's a development tool, so it leaves you in charge: any FastFlag, any environment variable or Rosemary build, a Repair button that downloads Studio again, and "Edit in Studio" links and Studio's browser login come back to the running Studio. Logging in, opening places, Team Create and dragging models work; some tools may still misbehave.
+
+**0.3.4** is current, as a Flatpak with a one-line installer and as Arch, Debian and RPM packages.
+
+<sub>[site](https://apps.daeese.me/ginrose-studio/) · [install](https://github.com/nunreasonable/ginrose-studio#install) · [releases](https://github.com/nunreasonable/ginrose-studio/releases/latest) · [source](https://github.com/nunreasonable/ginrose#ginrose-studio)</sub>
+
+<br/>
+
+<a href="https://github.com/nunreasonable/quickshell-windows">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/quickshell-windows-dark.svg" />
+    <img src="assets/quickshell-windows-light.svg" alt="quickshell-windows: Quickshell running natively on Windows 11 and 10" width="860" />
+  </picture>
+</a>
+
+#### [quickshell-windows](https://github.com/nunreasonable/quickshell-windows)
+
+[Quickshell](https://quickshell.outfoxxed.me), the QtQuick toolkit for building desktop shells, running natively on Windows 11 and 10: a Windows backend for the engine, QML stand-ins for the Linux-only modules, and a one-command install that needs no admin rights. Most of Quickshell's API is backed by Windows itself — app bars that reserve screen space, global hotkeys, virtual desktops as workspaces, media, audio, tray and notifications — so configs written for Linux need few changes. It's the engine under Illogical Windows, without the shell on top. Unofficial port, LGPL-3.0.
+
+<sub>[releases](https://github.com/nunreasonable/quickshell-windows/releases/latest) · [how the port works](https://github.com/nunreasonable/quickshell-windows/blob/main/WINDOWS.md) · [quickshell fork](https://github.com/nunreasonable/quickshell/tree/windows)</sub>
+
+<br/>
+
+<a href="https://www.roblox.com/communities/17047605/Imperial-Engineer-Corps#!/about">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/blood-oath-dark.svg" />
+    <img src="assets/blood-oath-light.svg" alt="Blood Oath: Brazil 1898, an open-world Roblox game set in the sertão" width="860" />
+  </picture>
+</a>
+
+#### [Blood Oath: Brazil 1898](https://www.roblox.com/communities/17047605/Imperial-Engineer-Corps#!/about)
+
+Open-world Roblox game in Luau, set in the sertão of northeastern Brazil in 1898, the age of the cangaço. Pick a side between four factions — cangaceiros, the Volante police, jagunços and sertanejos — and build up fame, bounties and a story told in chapters, with player-founded gangs and volantes. In development by my group, the Imperial Engineer Corps.
+
+<sub>[group](https://www.roblox.com/communities/17047605/Imperial-Engineer-Corps#!/about) · [discord](https://discord.com/invite/fdD6Mc6CAw)</sub>
+
+<br/>
+
+<a href="https://ccore.daeese.me/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ccore-dark.svg" />
+    <img src="assets/ccore-light.svg" alt="ccore, chavinhoCORE: administration bot for the 12° Regimento de Infantaria" width="860" />
+  </picture>
+</a>
+
+#### [ccore — chavinhoCORE](https://github.com/nunreasonable/cornwall-discord-application)
+
+The project Sollarety's infrastructure came from. Administration bot in C# / .NET for the 12° Regimento de Infantaria "Chaves" in CONSTANTES: enlistment with automatic Roblox verification, deployments, the regiment's spreadsheet and announcements. Server-locked on purpose. ccore for the 12° won't get as many updates from now on (it isn't disabled): it was the kickstart that let Sollarety shine. In the near future it may be rebranded into an "engine", my own Discord bot / app template for building any app.
+
+<sub>[site](https://ccore.daeese.me/) · [terms](https://ccore.daeese.me/termsofservice/) · [privacy](https://ccore.daeese.me/privacypolicy/)</sub>
+
+<br/>
+
+<a href="https://github.com/nunreasonable/rosemary-gentoo-overlay">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/gentoo-overlays-dark.svg" />
+    <img src="assets/gentoo-overlays-light.svg" alt="Gentoo overlays: Portage ebuilds for Rosemary, Ginrose and Mocktail" width="860" />
+  </picture>
+</a>
+
+#### [Gentoo overlays](https://github.com/nunreasonable/rosemary-gentoo-overlay)
+
+Two unofficial Portage overlays, so Gentoo users can `emerge` these. [rosemary-gentoo-overlay](https://github.com/nunreasonable/rosemary-gentoo-overlay) builds [Rosemary](https://github.com/microlift/rosemary), the macOS compatibility layer behind Ginrose, from source as `app-emulation/rosemary` (0.4.1, an offline Cargo build), and ships `games-util/ginrose` for Ginrose and Ginrose Studio. [mocktail-gentoo-overlay](https://github.com/nunreasonable/mocktail-gentoo-overlay/tree/gentoo-overlay) has ebuilds for [Mocktail](https://github.com/komaruworld/mocktail), the compatibility runtime that runs the Android x86-64 Roblox client on Linux: `app-emulation/mocktail` (source build plus a live `-9999`) and `app-emulation/mocktail-bin` as a prebuilt fallback.
+
+<sub>[rosemary overlay](https://github.com/nunreasonable/rosemary-gentoo-overlay) · [mocktail overlay](https://github.com/nunreasonable/mocktail-gentoo-overlay/tree/gentoo-overlay) · Rosemary and Mocktail are packaged, not mine; Ginrose is</sub>
+
+<br/>
+
+<a href="https://github.com/nunreasonable/end4-daeese">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/end4-daeese-dark.svg" />
+    <img src="assets/end4-daeese-light.svg" alt="end4-daeese: a personal Hyprland and Quickshell setup" width="860" />
+  </picture>
+</a>
+
+#### [end4-daeese](https://github.com/nunreasonable/end4-daeese)
+
+My personal Hyprland + Quickshell setup: pctrade's [end4-pC](https://github.com/pctrade/end4-pC), itself based on end-4's [illogical-impulse](https://github.com/end-4/dots-hyprland), with my own changes on top — an optional red-and-black cyberdeck mode, a wallpaper per workspace, welcome screens — and the rest of my dotfiles next to it. Tuned for one machine and changed whenever I feel like it. **No support, use at your own risk.**
+
+<sub>[repo](https://github.com/nunreasonable/end4-daeese) · [end4-pC](https://github.com/pctrade/end4-pC) · [illogical-impulse](https://github.com/end-4/dots-hyprland)</sub>
+
+<br/>
+
+<a href="https://discord.gg/3qdvhkNSS8">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/vltra-dark.svg" />
+    <img src="assets/vltra-light.svg" alt="VLTRA Entertainment: a Roblox game studio" width="860" />
+  </picture>
+</a>
+
+#### [VLTRA Entertainment](https://discord.gg/3qdvhkNSS8)
+
+Where I work as a fullstack developer — systems, gameplay and tooling in Luau. The studio's community lives on Discord.
+
+<sub>[discord](https://discord.gg/3qdvhkNSS8)</sub>
 
 > More at **[daeese.me](https://daeese.me)** and **[apps.daeese.me](https://apps.daeese.me)**
 

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180" role="img" aria-label="end4-daeese: a personal Hyprland and Quickshell setup">
+<title>end4-daeese</title>
+<style>
+.ti{font:700 34px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#16080e}
+.sub{font:400 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#5e5559}
+.eb{font:600 12px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#c8002f;letter-spacing:3px}
+.au{transform-box:fill-box;transform-origin:center;animation:au 12s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.92)}100%{opacity:1;transform:translateX(26px) scale(1.08)}}
+.tt{font:600 7.5px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#1a0a10}
+.hd{font:700 7.5px 'Cascadia Code','Cascadia Mono',Consolas,ui-monospace,'SF Mono',Menlo,'DejaVu Sans Mono',monospace;fill:#d4002f;letter-spacing:1px}
+.fc{opacity:0;animation:fc 8s steps(1) infinite}
+@keyframes fc{0%,24.9%{opacity:1}25%,100%{opacity:0}}
+.gl{opacity:0;animation:gl 8s steps(1) infinite}
+@keyframes gl{0%,24.4%{opacity:0}24.5%{opacity:1;transform:translateX(-3px)}25.2%{opacity:1;transform:translateX(2px)}25.8%,49.4%{opacity:0}49.5%{opacity:1;transform:translateX(3px)}50.2%,100%{opacity:0}}
+.cur{animation:bl 1s steps(1) infinite}
+@keyframes bl{50%{opacity:0}}
+.f0{opacity:1}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf9fa"/><stop offset="1" stop-color="#f3eef1"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2a0a16" fill-opacity=".09"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#ff003c" stop-opacity=".18"/><stop offset="1" stop-color="#ff003c" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="860" height="180" rx="18"/></clipPath>
+<linearGradient id="fg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d4002f"/><stop offset="1" stop-color="#5a0014"/></linearGradient>
+<linearGradient id="dk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdfbfc"/><stop offset="1" stop-color="#f5e9ed"/></linearGradient>
+<pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="rgba(90,0,20,.035)"/></pattern>
+<clipPath id="pn"><path d="M504 20H836V148L824 160H492V32Z"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="860" height="180" rx="18" fill="url(#bg)"/>
+<rect width="860" height="180" fill="url(#dots)"/>
+<ellipse class="au" cx="150" cy="70" rx="260" ry="130" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="179" rx="17.5" fill="none" stroke="rgba(179,0,42,.2)"/>
+<text class="eb" x="42" y="58">PERSONAL SETUP · HYPRLAND + QUICKSHELL</text>
+<text class="ti" x="40" y="100">end4-daeese</text>
+<text class="sub" x="41" y="132">on top of end4-pC · no support, use at your own risk</text>
+<g clip-path="url(#pn)">
+<rect x="492" y="20" width="344" height="140" fill="url(#dk)"/>
+<g class="bar">
+<rect x="492" y="20" width="344" height="17" fill="#f9f1f4"/>
+<rect x="492" y="36.4" width="344" height=".8" fill="#b3002a"/>
+<text class="hd" x="512" y="31.5">// SYS</text>
+<g fill="rgba(40,8,20,.16)"><rect x="552" y="25" width="8" height="6"/><rect x="564" y="25" width="8" height="6" fill="#d4002f"/><rect x="576" y="25" width="8" height="6"/><rect x="588" y="25" width="8" height="6"/></g>
+<text class="tt" x="664" y="31.5" text-anchor="middle">22:47</text>
+<text class="hd" x="824" y="31.5" text-anchor="end">[ OK ]</text>
+</g>
+<g class="gl" fill="#d4002f" fill-opacity=".55"><rect x="492" y="23" width="140" height="3"/><rect x="620" y="30" width="120" height="2"/></g>
+<path d="M505 42H668V149L661 156H498V49Z" fill="#ffffff" stroke="rgba(60,10,30,.16)"/><path d="M679 42H832V91L825 98H672V49Z" fill="#ffffff" stroke="rgba(60,10,30,.16)"/><path d="M679 102H750V149L743 156H672V109Z" fill="#ffffff" stroke="rgba(60,10,30,.16)"/><path d="M761 102H832V149L825 156H754V109Z" fill="#ffffff" stroke="rgba(60,10,30,.16)"/>
+<text class="tt" x="508" y="58"><tspan fill="#d4002f">[netrunner@daeese]</tspan> &gt;&gt;</text>
+<g fill="rgba(40,8,20,.16)"><rect x="508" y="66" width="110" height="3"/><rect x="508" y="74" width="80" height="3"/><rect x="508" y="82" width="130" height="3"/><rect x="508" y="90" width="64" height="3"/></g>
+<text class="tt" x="508" y="108"><tspan fill="#d4002f">[netrunner@daeese]</tspan> &gt;&gt;</text><rect class="cur" x="602" y="102" width="4.5" height="8" fill="#1a0a10"/>
+<text class="hd" x="682" y="56">CYBERDECK</text><rect x="682" y="64" width="120" height="3" fill="rgba(40,8,20,.16)"/><rect x="682" y="72" width="90" height="3" fill="rgba(40,8,20,.16)"/>
+<rect x="682" y="80" width="138" height="8" fill="none" stroke="#b3002a"/><rect x="683" y="81" width="92" height="6" fill="#d4002f" fill-opacity=".8"/>
+<text class="hd" x="680" y="116">RAM</text><g fill="rgba(40,8,20,.16)"><rect x="680" y="124" width="14" height="22"/><rect x="698" y="132" width="14" height="14"/><rect x="716" y="128" width="14" height="18" fill="#d4002f" fill-opacity=".7"/></g>
+<text class="hd" x="762" y="116">NET</text><path d="M762 144l10-8 8 4 10-12 8 6 12-10" fill="none" stroke="#d4002f" stroke-width="1.4"/>
+<path class="fc f0" style="animation-delay:0s" d="M505 42H668V149L661 156H498V49Z" fill="none" stroke="url(#fg)" stroke-width="1.6"/><path class="fc" style="animation-delay:-6s" d="M679 42H832V91L825 98H672V49Z" fill="none" stroke="url(#fg)" stroke-width="1.6"/><path class="fc" style="animation-delay:-4s" d="M679 102H750V149L743 156H672V109Z" fill="none" stroke="url(#fg)" stroke-width="1.6"/><path class="fc" style="animation-delay:-2s" d="M761 102H832V149L825 156H754V109Z" fill="none" stroke="url(#fg)" stroke-width="1.6"/>
+<rect x="492" y="20" width="344" height="140" fill="url(#scan)"/>
+</g>
+<path d="M504.5 20.5H835.5V147.5L823.5 159.5H492.5V32.5Z" fill="none" stroke="#b3002a" stroke-opacity=".8"/>
+</svg>

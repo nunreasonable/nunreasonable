@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180" role="img" aria-label="Blood Oath: Brazil 1898, an open-world Roblox game set in the sertão">
+<title>Blood Oath: Brazil 1898</title>
+<style>
+.ti{font:700 31px Georgia,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua','Times New Roman',serif;fill:#2b2118}
+.sub{font:400 15px Georgia,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua','Times New Roman',serif;fill:#6b5a45}
+.eb{font:600 12px Georgia,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua','Times New Roman',serif;fill:#8e1b12;letter-spacing:3px}
+.au{transform-box:fill-box;transform-origin:center;animation:au 12s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.92)}100%{opacity:1;transform:translateX(26px) scale(1.08)}}
+.sun{transform-box:fill-box;transform-origin:center;animation:sun 7s ease-in-out infinite alternate}
+@keyframes sun{0%{opacity:.75;transform:scale(.94)}100%{opacity:1;transform:scale(1.06)}}
+.du{animation:du linear infinite}
+@keyframes du{0%{transform:translateX(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(-190px);opacity:0}}
+.hz{animation:hz 16s ease-in-out infinite alternate}
+@keyframes hz{0%{transform:translateX(30px)}100%{transform:translateX(-30px)}}
+.mt{font:italic 400 9px Georgia,'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua','Times New Roman',serif;fill:#4e3420;fill-opacity:.75}
+.cp{transform-box:fill-box;transform-origin:center;animation:cp 30s linear infinite}
+@keyframes cp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf7ee"/><stop offset="1" stop-color="#f2e9d6"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#3a2614" fill-opacity=".08"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#c6966c" stop-opacity=".28"/><stop offset="1" stop-color="#c6966c" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="860" height="180" rx="18"/></clipPath>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2e6c9"/><stop offset=".7" stop-color="#e5c99a"/><stop offset="1" stop-color="#d7aa72"/></linearGradient>
+<radialGradient id="sg"><stop offset="0" stop-color="#b3261e" stop-opacity=".7"/><stop offset="1" stop-color="#b3261e" stop-opacity="0"/></radialGradient>
+<radialGradient id="dh"><stop offset="0" stop-color="#a8764e" stop-opacity=".45"/><stop offset="1" stop-color="#a8764e" stop-opacity="0"/></radialGradient>
+<radialGradient id="vg" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#a8764e" stop-opacity="0"/><stop offset="1" stop-color="#a8764e" stop-opacity=".55"/></radialGradient>
+<pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#4e3420" fill-opacity=".12"/><circle cx="4.5" cy="4" r=".5" fill="#4e3420" fill-opacity=".08"/></pattern>
+<clipPath id="pn"><rect x="492" y="20" width="344" height="140" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="860" height="180" rx="18" fill="url(#bg)"/>
+<rect width="860" height="180" fill="url(#dots)"/>
+<ellipse class="au" cx="150" cy="70" rx="260" ry="130" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="179" rx="17.5" fill="none" stroke="rgba(120,88,58,.25)"/>
+<text class="eb" x="42" y="58">OPEN-WORLD ROBLOX GAME · LUAU</text>
+<text class="ti" x="40" y="100">Blood Oath: Brazil 1898</text>
+<text class="sub" x="41" y="132">four factions · fame &amp; bounties · told in chapters</text>
+<g clip-path="url(#pn)">
+<rect x="492" y="20" width="344" height="140" fill="url(#sky)"/>
+<circle cx="716" cy="104" r="60" fill="url(#sg)"/>
+<circle class="sun" cx="716" cy="104" r="24" fill="#b3261e"/>
+<g fill="none" stroke="#4e3420" stroke-opacity=".18"><path d="M716 66v-12M716 142v12M678 104h-12M754 104h12M689 77l-8-8M743 131l8 8M743 77l8-8M689 131l-8 8"/></g>
+<path d="M492 118 Q530 104 570 112 T650 106 T740 110 T836 102 V160 H492Z" fill="#c69a68"/>
+<g class="hz"><ellipse cx="700" cy="120" rx="150" ry="16" fill="url(#dh)"/></g>
+<path d="M492 132 Q540 120 600 128 T700 124 T790 130 T836 126 V160 H492Z" fill="#a8764e"/>
+<g fill="#5a3c22">
+<path d="M492 146 Q560 136 640 142 T836 140 V160 H492Z"/>
+<rect x="533" y="114" width="6" height="26" rx="3"/><path d="M533 128.3h-5a2.5 2.5 0 0 1 -2.5 -2.5v-6.5a2.5 2.5 0 0 1 5 0v4h2.5z"/><path d="M539 124.4h5a2.5 2.5 0 0 0 2.5 -2.5v-4.7a2.5 2.5 0 0 0 -5 0v2.2h-2.5z"/><rect x="797.6" y="121" width="4.8" height="20" rx="2.4"/><path d="M797.6 132h-4a2 2 0 0 1 -2 -2v-5a2 2 0 0 1 4 0v3h2z"/><path d="M802.4 129h4a2 2 0 0 0 2 -2v-3.6a2 2 0 0 0 -4 0v1.6h-2z"/><rect x="610.2" y="129" width="3.6" height="14" rx="1.8"/><path d="M610.2 136.7h-3a1.5 1.5 0 0 1 -1.5 -1.5v-3.5a1.5 1.5 0 0 1 3 0v2h1.5z"/><path d="M613.8 134.6h3a1.5 1.5 0 0 0 1.5 -1.5v-2.5a1.5 1.5 0 0 0 -3 0v1h-1.5z"/>
+<path d="M760 141c0-8 1-14 4-20M764 126l-6-6M764 126l7-4M762 132l-6-1" stroke="#5a3c22" stroke-width="2" fill="none" stroke-linecap="round"/>
+</g>
+<g fill="#78583a"><circle class="du" style="animation-duration:9s;animation-delay:0s" cx="800" cy="112" r="1.6"/><circle class="du" style="animation-duration:11s;animation-delay:-3s" cx="760" cy="126" r="1.2"/><circle class="du" style="animation-duration:13s;animation-delay:-7s" cx="830" cy="100" r="1"/><circle class="du" style="animation-duration:10s;animation-delay:-5s" cx="720" cy="134" r="1.8"/><circle class="du" style="animation-duration:12s;animation-delay:-9s" cx="690" cy="118" r="1.1"/><circle class="du" style="animation-duration:8s;animation-delay:-2s" cx="780" cy="140" r="1.4"/><circle class="du" style="animation-duration:14s;animation-delay:-11s" cx="840" cy="128" r="1"/><circle class="du" style="animation-duration:12s;animation-delay:-6s" cx="650" cy="108" r="1.2"/><circle class="du" style="animation-duration:15s;animation-delay:-1s" cx="700" cy="96" r="0.9"/><circle class="du" style="animation-duration:9s;animation-delay:-4s" cx="820" cy="146" r="1.5"/></g>
+<path d="M520 152 C580 150 600 146 650 150 S760 156 820 150" fill="none" stroke="#4e3420" stroke-opacity=".35" stroke-dasharray="3 4"/>
+<rect x="492" y="20" width="344" height="140" fill="url(#grain)"/>
+<rect x="492" y="20" width="344" height="140" fill="url(#vg)"/>
+<g transform="translate(520 48)"><circle r="13" fill="none" stroke="#4e3420" stroke-opacity=".4"/><g class="cp"><path d="M0-16L3 0 0 16-3 0Z" fill="#4e3420" fill-opacity=".55"/><path d="M-16 0L0-3 16 0 0 3Z" fill="#4e3420" fill-opacity=".3"/></g></g>
+<text class="mt" x="541" y="51">Sertão, 1898</text>
+</g>
+<rect x="496.5" y="24.5" width="335" height="131" rx="8" fill="none" stroke="#4e3420" stroke-opacity=".28"/>
+<rect x="492.5" y="20.5" width="343" height="139" rx="11.5" fill="none" stroke="#4e3420" stroke-opacity=".4"/>
+</svg>

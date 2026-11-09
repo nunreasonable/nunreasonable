@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="180" viewBox="0 0 860 180" role="img" aria-label="Ginrose Studio: a Roblox Studio launcher for Linux, built around Rosemary">
+<title>Ginrose Studio</title>
+<style>
+.ti{font:700 34px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#081426}
+.sub{font:400 15px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#55606e}
+.eb{font:600 12px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#0b55d8;letter-spacing:3px}
+.au{transform-box:fill-box;transform-origin:center;animation:au 12s ease-in-out infinite alternate}
+@keyframes au{0%{opacity:.5;transform:translateX(-20px) scale(.92)}100%{opacity:1;transform:translateX(26px) scale(1.08)}}
+.et{font:600 8.5px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#55606e}
+.er{font:500 8.5px 'Segoe UI Variable Display','Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif;fill:#081426}
+.nb{transform-box:fill-box;transform-origin:50% 100%;animation:nb 8s cubic-bezier(.3,.6,.3,1) infinite}
+@keyframes nb{0%,14%{opacity:0;transform:translateY(-46px)}18%{opacity:1}28%{transform:translateY(0) scaleY(1)}31%{transform:translateY(0) scaleY(.9)}34%,92%{opacity:1;transform:translateY(0) scaleY(1)}98%,100%{opacity:0;transform:translateY(0)}}
+.sel{animation:sel 8s steps(1) infinite}
+@keyframes sel{0%,33%{opacity:0}34%,95%{opacity:1}96%,100%{opacity:0}}
+.nr{animation:nr 8s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes nr{0%,33%{opacity:0;transform:translateX(10px)}38%,92%{opacity:1;transform:translateX(0)}98%,100%{opacity:0}}
+.gz{transform-box:fill-box;transform-origin:center;animation:gz 2s ease-in-out infinite alternate}
+@keyframes gz{0%{opacity:.55}100%{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fafcff"/><stop offset="1" stop-color="#edf3fb"/></linearGradient>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#0a1a33" fill-opacity=".08"/></pattern>
+<radialGradient id="glow"><stop offset="0" stop-color="#51adfc" stop-opacity=".28"/><stop offset="1" stop-color="#51adfc" stop-opacity="0"/></radialGradient>
+<clipPath id="card"><rect width="860" height="180" rx="18"/></clipPath>
+<linearGradient id="dk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3effc"/><stop offset="1" stop-color="#c3dcf7"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe6fd"/><stop offset="1" stop-color="#9fcaf3"/></linearGradient>
+<clipPath id="pn"><rect x="492" y="20" width="344" height="140" rx="12"/></clipPath>
+<clipPath id="vp"><rect x="500" y="46" width="214" height="106" rx="5"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+<rect width="860" height="180" rx="18" fill="url(#bg)"/>
+<rect width="860" height="180" fill="url(#dots)"/>
+<ellipse class="au" cx="150" cy="70" rx="260" ry="130" fill="url(#glow)"/>
+</g>
+<rect x=".5" y=".5" width="859" height="179" rx="17.5" fill="none" stroke="rgba(11,85,216,.18)"/>
+<text class="eb" x="42" y="58">ROBLOX STUDIO LAUNCHER · LINUX</text>
+<text class="ti" x="40" y="100">Ginrose Studio</text>
+<text class="sub" x="41" y="132">any FastFlag · any Rosemary · Edit in Studio links</text>
+<g clip-path="url(#pn)">
+<rect x="492" y="20" width="344" height="140" fill="url(#dk)"/>
+<rect x="492" y="20" width="344" height="20" fill="rgba(255,255,255,.6)"/>
+<circle cx="504" cy="30" r="2.4" fill="#0b55d8"/><circle cx="512" cy="30" r="2.4" fill="rgba(10,30,60,.14)"/><circle cx="520" cy="30" r="2.4" fill="rgba(10,30,60,.14)"/>
+<g fill="rgba(10,30,60,.14)"><rect x="540" y="26" width="16" height="8" rx="2"/><rect x="560" y="26" width="16" height="8" rx="2"/><rect x="580" y="26" width="16" height="8" rx="2"/><rect x="600" y="26" width="16" height="8" rx="2"/></g>
+<path d="M650 25.5v9l7.5-4.5z" fill="#0b55d8"/><rect x="662" y="26" width="8" height="8" rx="1.5" fill="rgba(10,30,60,.14)"/>
+<g clip-path="url(#vp)">
+<rect x="500" y="46" width="214" height="106" fill="url(#sky)"/>
+<path d="M606 74L698 120L606 166L514 120Z" fill="#b9c8da"/>
+<path d="M525.5 114.2L617.5 160.2M686.5 114.2L594.5 160.2M537 108.5L629 154.5M675 108.5L583 154.5M548.5 102.8L640.5 148.8M663.5 102.8L571.5 148.8M560 97L652 143M652 97L560 143M571.5 91.2L663.5 137.2M640.5 91.2L548.5 137.2M583 85.5L675 131.5M629 85.5L537 131.5M594.5 79.8L686.5 125.8M617.5 79.8L525.5 125.8" stroke="rgba(10,30,60,.14)" stroke-width=".8" fill="none"/>
+<g><path d="M570 105L584 112L570 119L556 112Z" fill="#e2e8f0"/><path d="M556 112L570 119V133L556 126Z" fill="#a9b6c6"/><path d="M570 119L584 112V126L570 133Z" fill="#8796aa"/></g>
+<g><path d="M646 112L658 118L646 124L634 118Z" fill="#f2f5f9"/><path d="M634 118L646 124V146L634 140Z" fill="#c0cad7"/><path d="M646 124L658 118V140L646 146Z" fill="#9eabbc"/></g>
+<g class="nb"><path d="M606 97.5L619 104L606 110.5L593 104Z" fill="#9ed2ff"/><path d="M593 104L606 110.5V123.5L593 117Z" fill="#4a9cf0"/><path d="M606 110.5L619 104V117L606 123.5Z" fill="#0b55d8"/></g>
+<g class="sel"><path d="M606 97.5L619 104V117L606 123.5L593 117V104Z" fill="none" stroke="#0b55d8" stroke-width="1.4"/>
+<g class="gz" stroke-width="2" stroke-linecap="round"><path d="M606 92V78" stroke="#0b55d8"/><path d="M602 82l4-5 4 5" fill="none" stroke="#0b55d8"/><path d="M621 110l12 6" stroke="#1c2a3c"/><path d="M629 118l5-1-2-5" fill="none" stroke="#1c2a3c"/></g></g>
+</g>
+<rect x="500.5" y="46.5" width="213" height="105" rx="4.5" fill="none" stroke="rgba(10,30,60,.14)"/>
+<rect x="720" y="46" width="108" height="106" rx="5" fill="#fbfdff" stroke="rgba(10,30,60,.14)"/>
+<text class="et" x="728" y="59">Explorer</text>
+<rect x="728" y="63" width="92" height="1" fill="rgba(10,30,60,.14)"/>
+<rect x="728" y="67" width="7" height="7" rx="1.5" fill="#0b55d8"/><text class="er" x="739" y="74">Workspace</text><rect x="738" y="80" width="7" height="7" rx="1.5" fill="rgba(10,30,60,.14)"/><text class="er" x="749" y="87">Baseplate</text><rect x="738" y="93" width="7" height="7" rx="1.5" fill="rgba(10,30,60,.14)"/><text class="er" x="749" y="100">Part</text><rect x="738" y="106" width="7" height="7" rx="1.5" fill="rgba(10,30,60,.14)"/><text class="er" x="749" y="113">Model</text>
+<g class="nr"><rect x="724" y="116" width="100" height="13" rx="3" fill="#0b55d8" fill-opacity=".22"/><rect x="738" y="119" width="7" height="7" rx="1.5" fill="#0b55d8"/><text class="er" x="749" y="126">Part</text></g>
+<rect x="728" y="136" width="60" height="4" rx="2" fill="rgba(10,30,60,.14)"/><rect x="728" y="144" width="44" height="4" rx="2" fill="rgba(10,30,60,.14)"/>
+</g>
+<rect x="492.5" y="20.5" width="343" height="139" rx="11.5" fill="none" stroke="rgba(10,30,60,.14)"/>
+</svg>
