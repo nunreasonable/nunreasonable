@@ -145,7 +145,7 @@ Open-world Roblox game in Luau, set in the sertão of northeastern Brazil in 189
 
 #### [ccore — chavinhoCORE](https://github.com/nunreasonable/cornwall-discord-application)
 
-The project Sollarety's infrastructure came from. Administration bot in C# / .NET for the 12° Regimento de Infantaria "Chaves" in CONSTANTES: enlistment with automatic Roblox verification, deployments, the regiment's spreadsheet and announcements. Server-locked on purpose. ccore for the 12° won't get as many updates from now on (it isn't disabled): it was the kickstart that let Sollarety shine. In the near future it may be rebranded into an "engine", my own Discord bot / app template for building any app.
+The project Sollarety's infrastructure came from. Administration bot in Rust (rewritten from C# / .NET in November 2026) for the 12° Regimento de Infantaria "Chaves" in CONSTANTES: enlistment with automatic Roblox verification, deployments, the regiment's spreadsheet and announcements. Server-locked on purpose. ccore for the 12° won't get as many updates from now on (it isn't disabled): it was the kickstart that let Sollarety shine. In the near future it may be rebranded into an "engine", my own Discord bot / app template for building any app.
 
 <sub>[site](https://ccore.daeese.me/) · [terms](https://ccore.daeese.me/termsofservice/) · [privacy](https://ccore.daeese.me/privacypolicy/)</sub>
 
