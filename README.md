@@ -81,9 +81,9 @@ Discord bot in C# / .NET for community servers: moderation with a warning histor
 
 #### [Ginrose](https://github.com/nunreasonable/ginrose)
 
-Open-source community launcher that runs the official macOS Roblox client on Linux through [Rosemary](https://github.com/microlift/rosemary), a macOS compatibility layer. It downloads the client straight from Roblox and keeps it up to date, lifts the frame-rate cap, offers FastFlags from Roblox's allowlist and per-game profiles, checks the machine for things that get in the way, and shows what you're playing on Discord. The client itself is never modified. Rust with GTK 4 / libadwaita, GPL-3.0+; experimental and only tested on one setup.
+Open-source community launcher that runs the official macOS Roblox client on Linux through [Rosemary](https://github.com/microlift/rosemary), a macOS compatibility layer. It downloads the client straight from Roblox and keeps it up to date, lifts the frame-rate cap, offers FastFlags from Roblox's allowlist and per-game profiles, checks the machine for things that get in the way, shows what you're playing on Discord and, if you turn it on, where the server you joined is. The client itself is never modified. Rust with GTK 4 / libadwaita, GPL-3.0+; experimental and only tested on one setup.
 
-**0.3.5** is current: a Flatpak with a one-line installer, plus Arch, Debian and RPM packages. The Flatpak ships Ginrose's build of Rosemary 0.5.0, with microphone input for voice chat and Ctrl standing in for Command in copy and paste.
+**0.3.6** is current: a Flatpak with a one-line installer, plus Arch, Debian and RPM packages. The Flatpak ships Ginrose's build of Rosemary, now upstream main plus Ginrose's open pull requests, with microphone input for voice chat and Ctrl standing in for Command in copy and paste.
 
 <sub>[site](https://apps.daeese.me/ginrose/) · [install](https://github.com/nunreasonable/ginrose-flatpak#install) · [releases](https://github.com/nunreasonable/ginrose-flatpak/releases/latest) · [source](https://github.com/nunreasonable/ginrose)</sub>
 
@@ -100,7 +100,7 @@ Open-source community launcher that runs the official macOS Roblox client on Lin
 
 The same idea for Roblox Studio: runs the official macOS Roblox Studio on Linux through Rosemary, built from Ginrose's code as a second program with its own app ID, folders and prefix. It's a development tool, so it leaves you in charge: any FastFlag, any environment variable or Rosemary build, a Repair button that downloads Studio again, and "Edit in Studio" links and Studio's browser login come back to the running Studio. Logging in, opening places, Team Create and dragging models work; some tools may still misbehave.
 
-**0.3.5** is current, as a Flatpak with a one-line installer and as Arch, Debian and RPM packages.
+**0.3.6** is current, as a Flatpak with a one-line installer and as Arch, Debian and RPM packages, on the same Rosemary build as Ginrose.
 
 <sub>[site](https://apps.daeese.me/ginrose-studio/) · [install](https://github.com/nunreasonable/ginrose-studio#install) · [releases](https://github.com/nunreasonable/ginrose-studio/releases/latest) · [source](https://github.com/nunreasonable/ginrose#ginrose-studio)</sub>
 
