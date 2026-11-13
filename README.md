@@ -47,13 +47,13 @@ Won't really say much except:
 
 #### [Illogical Windows](https://github.com/nunreasonable/ii-windows)
 
-end-4's [illogical-impulse](https://github.com/end-4/dots-hyprland) Quickshell desktop, ported from Hyprland to run natively on Windows 10 and 11, through a Quickshell fork with a native Windows backend (C++, Qt 6 / QML, Direct3D 11, WinRT). Spotlight search, optional dwindle tiling, `Win`+drag, the Settings app, screen recording, live video wallpapers and Material You colors from your wallpaper, in two looks: ii's original or pctrade's [end4-pC](https://github.com/pctrade/end4-pC). The GUI setup is Rust / Tauri and installs per user, no admin rights needed.
+end-4's [illogical-impulse](https://github.com/end-4/dots-hyprland) Quickshell desktop, ported from Hyprland to run natively on Windows 10 and 11, through a Quickshell fork with a native Windows backend (C++, Qt 6 / QML, Direct3D 11, WinRT). Spotlight search, optional dwindle tiling, `Win`+drag, the Settings app, screen recording, live video wallpapers and Material You colors from your wallpaper, in four looks: ii, pctrade's [end4-pC](https://github.com/pctrade/end4-pC), [NabyScape](https://github.com/BillyNabil/nabyscape) and [SekaiPop](https://github.com/Blapples/SekaiPop). The GUI setup is Rust / Tauri and installs per user, no admin rights needed.
 
-**Illogical Windows** (formerly ii-windows): **26.1.1.0 “Bureaucratic Hamster” is stable**. It adds Scrolling tiling, NabyScape style, automatic light/dark mode, calendar events, dock reordering and experimental native ARM64 support (Windows 11 24H2 build 26100.2605+). It is still unsigned: code signing through the SignPath Foundation has been requested but is not available yet. Microsoft Defender may flag or remove unsigned builds; see the release notes for the current notice.
+**Illogical Windows** (formerly ii-windows): **26.1.2.0 “Pogo-Sticking Walrus” is stable**. It adds SekaiPop, based on [Blapples’ work](https://github.com/Blapples/SekaiPop) with permission, the Colonies wallpaper transition, setup without PowerShell, reliable preset saving (thanks to @rubenmarcus), dock and Settings fixes, digital-clock color and Scrolling widths. Native ARM64 remains experimental (Windows 11 24H2 build 26100.2605+). It is still unsigned: code signing through the SignPath Foundation has been requested but is not available yet. Microsoft Defender may flag or remove unsigned builds; see the release notes for the current notice.
 
-[Release notes and downloads](https://github.com/nunreasonable/ii-windows/releases/tag/v26.1.1.0)
+[Release notes and downloads](https://github.com/nunreasonable/ii-windows/releases/tag/v26.1.2.0)
 
-<sub>[showcase](https://apps.daeese.me/illogicalwindows/) · [stable setup](https://github.com/nunreasonable/ii-windows/releases/tag/v26.1.1.0) · [quickshell fork](https://github.com/nunreasonable/quickshell/tree/windows) · [ii fork](https://github.com/nunreasonable/dots-hyprland/tree/ii-windows)</sub>
+<sub>[showcase](https://apps.daeese.me/illogicalwindows/) · [stable setup](https://github.com/nunreasonable/ii-windows/releases/tag/v26.1.2.0) · [quickshell fork](https://github.com/nunreasonable/quickshell/tree/windows) · [ii fork](https://github.com/nunreasonable/dots-hyprland/tree/ii-windows)</sub>
 
 <br/>
 
