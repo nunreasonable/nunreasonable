@@ -1,10 +1,10 @@
 {
-  "total": 5030,
+  "total": 5075,
   "repositories": {
-    "ginrose-flatpak": 686,
-    "ginrose-studio": 149,
-    "ii-windows": 4147,
-    "quickshell-windows": 47,
-    "rosemary": 1
+    "ginrose-flatpak": 700,
+    "ginrose-studio": 155,
+    "ii-windows": 4169,
+    "quickshell-windows": 48,
+    "rosemary": 3
   }
 }
