@@ -1,9 +1,9 @@
 {
-  "total": 5294,
+  "total": 5340,
   "repositories": {
-    "ginrose-flatpak": 742,
+    "ginrose-flatpak": 746,
     "ginrose-studio": 164,
-    "ii-windows": 4331,
-    "quickshell-windows": 57
+    "ii-windows": 4372,
+    "quickshell-windows": 58
   }
 }
